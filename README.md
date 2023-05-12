@@ -60,7 +60,13 @@
 #### Para realizarmos a importação do Banco de Dados, vamos utilizar o dump, localizado no link:
 [Link Download Dump](https://agapys365-my.sharepoint.com/:u:/g/personal/nicolas_rocha_agapys_com/ES_UWGg5s1tJq6R0S-lh2l8BpRksbIC09gPehDFyO7xgSg?e=PhYKOb)
 
+#### Clicar no localhost com o botão esquerdo e criar um novo Database:
 
+#### Digitar o nome do Database
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverNameDatabase.png)
+
+#### Selecionar o Database criado, clicar com o botão direito e ir em Restore Database
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverRestoreDatabase.png)
  
 ### ________________________________________________________________________________________________________________________
 ### Git
