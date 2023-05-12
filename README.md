@@ -12,14 +12,16 @@
 * Github
 * NVM / Node 14.18.1
 ### ________________________________________________________________________________________________________________________
-### Mongo 
-#### __Para instalarmos o MongoDB, vamos utilizar o link:__
+### MongoDB
+#### __Para a instalação do MongoDB, utilizar o link abaixo para o download do instalador:__
 
 #### [Link Install](https://agapys365-my.sharepoint.com/:u:/g/personal/nicolas_rocha_agapys_com/EYBdIzJ0_5hHtejwxYr_oZMBqwGJ5NAJZTk00g1R1CJ8UA?e=TYcIoe)
 
-#### Iremos realizar a instalação normalmente clicando nos "Next", porém só deve se atendar quando ele solicitar se deseja fazer a inslação Completa ou Customizada, selecionar a opção "Completa" e continuar clicando no Next.
+#### Extrair o arquivo .rar e então executar o arquivo mongodb-windows-x86_64-6.0.5-signed.msi.
 
-#### Após finalizado a instalação, o MongoDB vai abrir e para finalizar a configuraçaõ, basta clicar em "Connect".
+#### Clicar em next na primeira página, aceitar os termos, selecionar a opção de instalação completa e os demais menus selecionar next e install.
+
+#### Finalizada a instalação do MongoDB Compass e aberto o programa, digitar mongodb://localhost:27017 no campo de URI e então conectar.
 
 ### ________________________________________________________________________________________________________________________
 ### Intellij
