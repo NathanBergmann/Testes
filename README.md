@@ -49,7 +49,7 @@
 #### Para instalarmos o Git, vamos utiliza o link:
 #### [Link Install](https://git-scm.com/download/win)
 
-#### Iremos realizar a instalação normalmente clicando nos "Next", porém só deve se atendar quando ele solicitar se deseja fazer a instalação Completa ou Customizada, selecionar a opção "Completa" e continuar clicando no Next.
+#### Iremos realizar a instalação normalmente, clicando nos "Next", porém só deve se atendar quando ele solicitar se deseja fazer a instalação Completa ou Customizada, selecionar a opção "Completa" e continuar clicando no Next.
 
 #### Após a instação, deverá ir na pasta C: do seu computador, e criar a pasta "git".
 #### Clicar com o botão direito e abrir o "Git Bah Here", irá abrir o prompt do git.
