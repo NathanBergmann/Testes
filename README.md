@@ -54,11 +54,34 @@
 ### Dbeaver
 
 * Instalação
+#### Para realizar a instalação do DBreaver, utilizar o link:
+[Link Intall](https://dbeaver.io/download/)
+#### Para realizar a instalação, basta continuar clicando Next.
 
 * Importar Banco de Dados
- 
- #### Para realizarmos a importação do Banco de Dados, vamos utilizar o dump, localizado no link:
- 
+#### Após a instalação, abrir o DBeaver;
+#### Clicar para adicionar um novo banco de dados:
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverNewDatabase.png)
+#### Selecione o tipo do Banco de Dados -> MariaDB
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverSelectMariaDb.png)
+#### 1- Informar a senha do root:
+#### 2- Clicar para testar a conexão:
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverTestConection.png)
+#### Caso aparece a mensagem de download de Driver, clicar para baixar;
+![](https://github.com/NathanBergmann/Testes/blob/Main/ImagensMd/dbeaverDownloadDriverFiles.png?raw=true)
+#### Após isso, ele irá informar que foi conectado com sucesso.
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverResultConnection.png)
+
+#### Para realizarmos a importação do Banco de Dados, vamos utilizar o dump, localizado no link:
+[Link Download Dump](https://agapys365-my.sharepoint.com/:u:/g/personal/nicolas_rocha_agapys_com/ES_UWGg5s1tJq6R0S-lh2l8BpRksbIC09gPehDFyO7xgSg?e=PhYKOb)
+
+#### Clicar no localhost com o botão esquerdo e criar um novo Database:
+
+#### Digitar o nome do Database
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverNameDatabase.png)
+
+#### Selecionar o Database criado, clicar com o botão direito e ir em Restore Database
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverRestoreDatabase.png)
  
 #### ________________________________________________________________________________________________________________________
 ### Git
