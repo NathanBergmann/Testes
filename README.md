@@ -1,4 +1,4 @@
-# Instalação Programas Dev
+# Instalação e Configuração Programas Dev
 
 ## Programas que serão instalados
 
@@ -13,22 +13,26 @@
 * NVM / Node 14.18.1
 ### ________________________________________________________________________________________________________________________
 ### MongoDB
+<br>
+
 #### __Para a instalação do MongoDB, utilizar o link abaixo para o download do instalador:__
 
 #### [Link Install](https://agapys365-my.sharepoint.com/:u:/g/personal/nicolas_rocha_agapys_com/EYBdIzJ0_5hHtejwxYr_oZMBqwGJ5NAJZTk00g1R1CJ8UA?e=TYcIoe)
 
 #### Extrair o arquivo .rar e então executar o arquivo mongodb-windows-x86_64-6.0.5-signed.msi.
 
-#### Clicar em next na primeira página, aceitar os termos, selecionar a opção de instalação completa e os demais menus selecionar next e install.
+#### Clicar *Next* na primeira página, aceitar os termos, selecionar a opção de instalação completa e os demais menus selecionar *Next* e *Install*.
 
 #### Finalizada a instalação do MongoDB Compass e aberto o programa, digitar mongodb://localhost:27017 no campo de URI e então conectar.
 
-### ________________________________________________________________________________________________________________________
+#### ________________________________________________________________________________________________________________________
 ### Intellij
+<br>
 
 #### __Realizar o download e instalação do Intellij através do site da JetBrains__
 
 #### *[Link Install](https://www.jetbrains.com/pt-br/idea/download/#section=windows)*
+
 <br>
 
 #### __Configuração do Orquestrador__
@@ -48,25 +52,67 @@
 
 * Abrir o arquivo application.properties no caminho *backend/src/,main/java/com.agapys.rpa* e alterar a propriedade __spring.datasource.password__ para "root" (sem as aspas) e executar o arquivo RpaApplication.java novamente.
 ________________________________________________________________________________________________________________________
+
 ### VsCode
 
-### ________________________________________________________________________________________________________________________
+#### ________________________________________________________________________________________________________________________
 ### Visual Studio
 
-### ________________________________________________________________________________________________________________________
+#### Para a configuração do Visual Studio, vamos partir do principio em que ele já está instalado na máquina local, e vamos instalar apenas as cargas de trabalho necessárias.
+
+#### Clicar em Ferramentas -> e depois em "Obter Ferramentas e Funcionalidades"
+![](imagem) [Adicionar Imagem]
+
+#### Clicar em modificar
+![](imagemModificar) [Adicionar Imagem]
+
+#### Adicionar as seguintes cargas de trabalho:
+
+![](imagemCargasTrabalho) [Adicionar Imagem]
+
+#### Clicar para realizar o download e instalar
+![](imagemDownloadInstall) [Adicionar Imagem]
+________________________________________________________________________________________________________________________
 ### MariaDB
 
-### ________________________________________________________________________________________________________________________
+#### ________________________________________________________________________________________________________________________
 ### Dbeaver
 
 * Instalação
+#### Para realizar a instalação do DBreaver, utilizar o link:
+[Link Intall](https://dbeaver.io/download/)
+#### Para realizar a instalação, basta continuar clicando Next.
 
 * Importar Banco de Dados
+#### Após a instalação, abrir o DBeaver;
+#### Clicar para adicionar um novo banco de dados:
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverNewDatabase.png)
+#### Selecione o tipo do Banco de Dados -> MariaDB
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverSelectMariaDb.png)
+#### 1- Informar a senha do root:
+#### 2- Clicar para testar a conexão:
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverTestConection.png)
+#### Caso aparece a mensagem de download de Driver, clicar para baixar;
+![](https://github.com/NathanBergmann/Testes/blob/Main/ImagensMd/dbeaverDownloadDriverFiles.png?raw=true)
+#### Após isso, ele irá informar que foi conectado com sucesso.
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Main/ImagensMd/dbeaverResultConnection.png)
+
+#### Para realizarmos a importação do Banco de Dados, vamos utilizar o dump, localizado no link:
+[Link Download Dump](https://agapys365-my.sharepoint.com/:u:/g/personal/nicolas_rocha_agapys_com/ES_UWGg5s1tJq6R0S-lh2l8BpRksbIC09gPehDFyO7xgSg?e=PhYKOb)
+
+#### Clicar no localhost com o botão esquerdo e criar um novo Database:
+
+#### Digitar o nome do Database
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverNameDatabase.png)
+
+#### Selecionar o Database criado, clicar com o botão direito e ir em Restore Database
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverRestoreDatabase.png)
  
- #### Para realizarmos a importação do Banco de Dados, vamos utilizar o dump, localizado no link:
- 
- 
-### ________________________________________________________________________________________________________________________
+#### Selecionar o arquivo dump que baixando anteriormente.
+![](C:\git\Testes\ImagensMd\selecetDatabaseImport.png) - [Adicionar Imagem]
+
+#### Após finalizar a importação, o seu DBeaver já está configurado.
+________________________________________________________________________________________________________________________
 ### Git
 
 #### Para instalarmos o Git, vamos utiliza o link:
@@ -99,10 +145,10 @@ ________________________________________________________________________________
 #### git clone urlDoPRojeto
 
 
-### ________________________________________________________________________________________________________________________
+#### ________________________________________________________________________________________________________________________
 ### Github Desktop
 
-### ________________________________________________________________________________________________________________________
+#### ________________________________________________________________________________________________________________________
 ### NVM / Node 14.18.1
 
-### ________________________________________________________________________________________________________________________
+#### ________________________________________________________________________________________________________________________
