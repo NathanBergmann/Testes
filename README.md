@@ -83,7 +83,11 @@
 #### Selecionar o Database criado, clicar com o botão direito e ir em Restore Database
 ![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverRestoreDatabase.png)
  
-#### ________________________________________________________________________________________________________________________
+#### Selecionar o arquivo dump que baixando anteriormente.
+![](C:\git\Testes\ImagensMd\selecetDatabaseImport.png) - [Adicionar Imagem]
+
+#### Após finalizar a importação, o seu DBeaver já está configurado.
+________________________________________________________________________________________________________________________
 ### Git
 
 #### Para instalarmos o Git, vamos utiliza o link:
