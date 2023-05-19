@@ -11,6 +11,11 @@
 * Github Desktop
 * Github
 * NVM / Node 14.18.1
+
+### Resumo Arquitetura:
+* Intellih -> Utilizado para rodar e fazer alterações no Orquestrador;
+* DBeaver -> Roda o Banco de Dados do Orquestrador;
+
 ### ________________________________________________________________________________________________________________________
 ### MongoDB
 <br>
@@ -61,17 +66,17 @@ ________________________________________________________________________________
 #### Para a configuração do Visual Studio, vamos partir do principio em que ele já está instalado na máquina local, e vamos instalar apenas as cargas de trabalho necessárias.
 
 #### Clicar em Ferramentas -> e depois em "Obter Ferramentas e Funcionalidades"
-![](imagem) [Adicionar Imagem]
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/visualStudioObterFerramenta.png)
 
 #### Clicar em modificar
-![](imagemModificar) [Adicionar Imagem]
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/visualStudioSelecionarModificar.png)
 
 #### Adicionar as seguintes cargas de trabalho:
 
-![](imagemCargasTrabalho) [Adicionar Imagem]
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/visualStudioExtensoesNecessarias.png)
 
 #### Clicar para realizar o download e instalar
-![](imagemDownloadInstall) [Adicionar Imagem]
+![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/visualStudioClicarInstalarDownload.png)
 ________________________________________________________________________________________________________________________
 ### MariaDB
 
