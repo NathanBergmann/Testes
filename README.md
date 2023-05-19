@@ -47,7 +47,21 @@
 #### ________________________________________________________________________________________________________________________
 ### Visual Studio
 
-#### ________________________________________________________________________________________________________________________
+#### Para a configuração do Visual Studio, vamos partir do principio em que ele já está instalado na máquina local, e vamos instalar apenas as cargas de trabalho necessárias.
+
+#### Clicar em Ferramentas -> e depois em "Obter Ferramentas e Funcionalidades"
+![](imagem) [Adicionar Imagem]
+
+#### Clicar em modificar
+![](imagemModificar) [Adicionar Imagem]
+
+#### Adicionar as seguintes cargas de trabalho:
+
+![](imagemCargasTrabalho) [Adicionar Imagem]
+
+#### Clicar para realizar o download e instalar
+![](imagemDownloadInstall) [Adicionar Imagem]
+________________________________________________________________________________________________________________________
 ### MariaDB
 
 #### ________________________________________________________________________________________________________________________
@@ -83,7 +97,11 @@
 #### Selecionar o Database criado, clicar com o botão direito e ir em Restore Database
 ![](https://raw.githubusercontent.com/NathanBergmann/Testes/Desk/ImagensMd/dbeaverRestoreDatabase.png)
  
-#### ________________________________________________________________________________________________________________________
+#### Selecionar o arquivo dump que baixando anteriormente.
+![](C:\git\Testes\ImagensMd\selecetDatabaseImport.png) - [Adicionar Imagem]
+
+#### Após finalizar a importação, o seu DBeaver já está configurado.
+________________________________________________________________________________________________________________________
 ### Git
 
 #### Para instalarmos o Git, vamos utiliza o link:
