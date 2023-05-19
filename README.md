@@ -26,7 +26,28 @@
 ### ________________________________________________________________________________________________________________________
 ### Intellij
 
-### ________________________________________________________________________________________________________________________
+#### __Realizar o download e instalação do Intellij através do site da JetBrains__
+
+#### *[Link Install](https://www.jetbrains.com/pt-br/idea/download/#section=windows)*
+<br>
+
+#### __Configuração do Orquestrador__
+<br>
+
+* Realizada a instalação e abertura do programa, selecionar a opção *Open*, para abertura de pastas
+
+* Abrir a pasta *C:\git\orchestrator\backend* e clicar em *Trust Project*.
+
+* Já dentro do app, realizar o download do Amazon Corretto v17 em File > Project Structure > SDK > Download SDK
+
+* Selecionado o Amazon Corretto, abrir o menu Maven e clicar em *Reload All Maven Projects*.
+
+* Realizada a sincronização dos projetos, abrir o arquivo RpaApplication.java no caminho *backend/src/main/java/com.agapys.rpa*.
+
+* Assim que aberto o arquivo, executá-lo. Em caso de erro, clicar na opção *Shorten the command line and return*.
+
+* Abrir o arquivo application.properties no caminho *backend/src/,main/java/com.agapys.rpa* e alterar a propriedade __spring.datasource.password__ para "root" (sem as aspas) e executar o arquivo RpaApplication.java novamente.
+________________________________________________________________________________________________________________________
 ### VsCode
 
 ### ________________________________________________________________________________________________________________________
